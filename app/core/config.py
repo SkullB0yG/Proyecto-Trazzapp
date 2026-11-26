@@ -8,12 +8,10 @@ class Env_db(BaseSettings):
     HOST_DB:str
     NAME_DB:str
     PORT_DB:str
-    DEBUG:bool
 
     # Esto le dice a pydantic donde buscar el archivo
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8")
 
    
 settingsdb = Env_db() #type: ignore
-
 

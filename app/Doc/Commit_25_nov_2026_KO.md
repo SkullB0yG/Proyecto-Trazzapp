@@ -1,6 +1,6 @@
 # Commit inicial de la rama de desarrollo
 
-**Contenido** :  integracion de variables de entorno en el archivo `core\config.py`
+**Contenido** :  integracion de variables de entorno en la ruta `core\config.py`
 ___
 *Descripcion:* En esta parte realice la implementacion de las variables de entorno encontrarar el facil uso por modulos realizando la importacion de **from config import settingsdb**. 
 
